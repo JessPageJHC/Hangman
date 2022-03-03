@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using static System.Console;
 
 class Program
@@ -81,5 +82,35 @@ class Program
         // Initialize
         Clear();
         ForegroundColor = ConsoleColor.White;
+
+        // Get files from "categories" folder and allow user to select one
+        DirectoryInfo directory = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\categories");
+        FileInfo[] files = directory.GetFiles();
+
+        WriteLine("Choose a category:");
+        foreach(FileInfo i in files)
+        {           
+            WriteLine("  {0}", Path.GetFileNameWithoutExtension(i.Name));
+        }
+        WriteLine("Press ENTER to select.");
+
+        int selection = 0;
+        bool selected = false;
+        while (!selected)
+        {
+            SetCursorPosition(0, selection + 1);
+            switch (ReadKey(true).Key)
+            {
+                case ConsoleKey.UpArrow:
+                    if (selection > 0) { selection--; }
+                    break;
+                case ConsoleKey.DownArrow:
+                    if (selection < files.Length - 1) { selection++; }
+                    break;
+                case ConsoleKey.Enter:
+                    selected = true;
+                    break;
+            }
+        }
     }
 }
