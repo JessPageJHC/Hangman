@@ -82,11 +82,13 @@ class Program
         // Initialize
         Clear();
         ForegroundColor = ConsoleColor.White;
+        Random random = new Random();
 
-        // Get files from "categories" folder and allow user to select one
+        // Get files from "categories" folder
         DirectoryInfo directory = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\categories");
         FileInfo[] files = directory.GetFiles();
 
+        // Print out list of categories
         WriteLine("Choose a category:");
         foreach(FileInfo i in files)
         {           
@@ -94,6 +96,7 @@ class Program
         }
         WriteLine("Press ENTER to select.");
 
+        // Allow user to select a category
         int selection = 0;
         bool selected = false;
         while (!selected)
@@ -112,5 +115,14 @@ class Program
                     break;
             }
         }
+
+        string category = Directory.GetCurrentDirectory() + @"\categories\" + files[selection].Name;
+        List<string> words = File.ReadAllLines(category).ToList();
+
+        Puzzle puzzle = new Puzzle(words[random.Next(words.Count)]);
+
+        Clear();
+        puzzle.ShowAll();
+        WriteLine(puzzle.ToString());
     }
 }
