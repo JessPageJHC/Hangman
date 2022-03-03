@@ -107,122 +107,188 @@ class Program
 
     static void Main()
     {
-        // Initialize
-        Clear();
-        ForegroundColor = ConsoleColor.White;
-        CursorVisible = true;
-        Random random = new Random();
-
-        // Get files from "categories" folder
-        DirectoryInfo directory = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\categories");
-        FileInfo[] files = directory.GetFiles();
-
-        // Print out list of categories
-        WriteLine("Choose a category:");
-        foreach(FileInfo i in files)
-        {           
-            WriteLine("  {0}", Path.GetFileNameWithoutExtension(i.Name));
-        }
-        WriteLine("Press ENTER to select.");
-
-        // Allow user to select a category
-        int selection = 0;
-        bool selected = false;
-        while (!selected)
-        {
-            SetCursorPosition(0, selection + 1);
-            switch (ReadKey(true).Key)
-            {
-                case ConsoleKey.UpArrow:
-                    if (selection > 0) { selection--; }
-                    break;
-                case ConsoleKey.DownArrow:
-                    if (selection < files.Length - 1) { selection++; }
-                    break;
-                case ConsoleKey.Enter:
-                    selected = true;
-                    break;
-            }
-        }
-
-        // Create a new puzzle with a random word from the selected category
-        string category = Directory.GetCurrentDirectory() + @"\categories\" + files[selection].Name;
-        List<string> words = File.ReadAllLines(category).ToList();
-        string word = words[random.Next(words.Count)];
-        Puzzle puzzle = new Puzzle(word);
-
-        CursorVisible = false;
-        bool win = true;
-        int mistakes = 0;
-        List<char> incorrectLetters = new List<char>();
         while (true)
         {
+            // Initialize
             Clear();
-            WriteLine(puzzle.ToString());
-            
-            char attempt = ' ';
-            switch (ReadKey(true).Key)
+            ForegroundColor = ConsoleColor.White;
+            CursorVisible = true;
+            Random random = new Random();
+
+            // Get files from "categories" folder
+            DirectoryInfo directory = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\categories");
+            FileInfo[] files = directory.GetFiles();
+
+            // Print out list of categories
+            WriteLine(" Choose a category:");
+            foreach(FileInfo i in files)
+            {           
+                WriteLine("   {0}", Path.GetFileNameWithoutExtension(i.Name));
+            }
+            WriteLine(" Press ENTER to select.");
+
+            // Allow user to select a category
+            int selection = 0;
+            bool selected = false;
+            while (!selected)
             {
-                case ConsoleKey.A: { attempt = 'a'; break; }
-                case ConsoleKey.B: { attempt = 'b'; break; }
-                case ConsoleKey.C: { attempt = 'c'; break; }
-                case ConsoleKey.D: { attempt = 'd'; break; }
-                case ConsoleKey.E: { attempt = 'e'; break; }
-                case ConsoleKey.F: { attempt = 'f'; break; }
-                case ConsoleKey.G: { attempt = 'g'; break; }
-                case ConsoleKey.H: { attempt = 'h'; break; }
-                case ConsoleKey.I: { attempt = 'i'; break; }
-                case ConsoleKey.J: { attempt = 'j'; break; }
-                case ConsoleKey.K: { attempt = 'k'; break; }
-                case ConsoleKey.L: { attempt = 'l'; break; }
-                case ConsoleKey.M: { attempt = 'm'; break; }
-                case ConsoleKey.N: { attempt = 'n'; break; }
-                case ConsoleKey.O: { attempt = 'o'; break; }
-                case ConsoleKey.P: { attempt = 'p'; break; }
-                case ConsoleKey.Q: { attempt = 'q'; break; }
-                case ConsoleKey.R: { attempt = 'r'; break; }
-                case ConsoleKey.S: { attempt = 's'; break; }
-                case ConsoleKey.T: { attempt = 't'; break; }
-                case ConsoleKey.U: { attempt = 'u'; break; }
-                case ConsoleKey.V: { attempt = 'v'; break; }
-                case ConsoleKey.W: { attempt = 'w'; break; }
-                case ConsoleKey.X: { attempt = 'x'; break; }
-                case ConsoleKey.Y: { attempt = 'y'; break; }
-                case ConsoleKey.Z: { attempt = 'z'; break; }
+                SetCursorPosition(1, selection + 1);
+                switch (ReadKey(true).Key)
+                {
+                    case ConsoleKey.UpArrow:
+                        if (selection > 0) { selection--; }
+                        break;
+                    case ConsoleKey.DownArrow:
+                        if (selection < files.Length - 1) { selection++; }
+                        break;
+                    case ConsoleKey.Enter:
+                        selected = true;
+                        break;
+                }
             }
 
-            if (puzzle.Contains(attempt))
+            // Create a new puzzle with a random word from the selected category
+            string category = Directory.GetCurrentDirectory() + @"\categories\" + files[selection].Name;
+            List<string> words = File.ReadAllLines(category).ToList();
+            string word = words[random.Next(words.Count)];
+            Puzzle puzzle = new Puzzle(word);
+
+            CursorVisible = false;
+            bool win = true;
+            int mistakes = 0;
+            List<char> incorrectLetters = new List<char>();
+            while (true)
             {
-                puzzle.Show(attempt);
-            }
-            else if (!puzzle.Contains(attempt) && !incorrectLetters.Contains(attempt))
-            {
-                incorrectLetters.Add(attempt);
-                mistakes++;
+                Clear();
+                switch (mistakes)
+                {
+                    case 1:
+                        WriteLine(" \n\n\n\n\n\n\n     _____");
+                        break;
+                    case 2:
+                        WriteLine(" \n      |\n      |\n      |\n      |\n      |\n      |\n     _|___");
+                        break;
+                    case 3:
+                        WriteLine("       _______\n      |/\n      |\n      |\n      |\n      |\n      |\n     _|___");
+                        break;
+                    case 4:
+                        WriteLine("       _______\n      |/      |\n      |      (_)\n      |\n      |\n      |\n      |\n     _|___");
+                        break;
+                    case 5:
+                        WriteLine("       _______\n      |/      |\n      |      (_)\n      |       |\n      |       |\n      |\n      |\n     _|___");
+                        break;
+                    case 6:
+                        WriteLine("       _______\n      |/      |\n      |      (_)\n      |      \\|/\n      |       |\n      |\n      |\n     _|___");
+                        break;
+                    case 7:
+                        WriteLine("       _______\n      |/      |\n      |      (_)\n      |      \\|/\n      |       |\n      |      / \\\n      |\n     _|___");
+                        break;
+                    default:
+                        WriteLine(" \n\n\n\n\n\n\n");
+                        break;
+                }
+                WriteLine("\n " + puzzle.ToString() + "\n");
+                ForegroundColor = ConsoleColor.Red;
+                foreach (char c in incorrectLetters)
+                {
+                    Write(" " + Char.ToUpper(c));
+                }
+                ForegroundColor = ConsoleColor.White;
+                
+                char attempt = ' ';
+                switch (ReadKey(true).Key)
+                {
+                    case ConsoleKey.A: { attempt = 'a'; break; }
+                    case ConsoleKey.B: { attempt = 'b'; break; }
+                    case ConsoleKey.C: { attempt = 'c'; break; }
+                    case ConsoleKey.D: { attempt = 'd'; break; }
+                    case ConsoleKey.E: { attempt = 'e'; break; }
+                    case ConsoleKey.F: { attempt = 'f'; break; }
+                    case ConsoleKey.G: { attempt = 'g'; break; }
+                    case ConsoleKey.H: { attempt = 'h'; break; }
+                    case ConsoleKey.I: { attempt = 'i'; break; }
+                    case ConsoleKey.J: { attempt = 'j'; break; }
+                    case ConsoleKey.K: { attempt = 'k'; break; }
+                    case ConsoleKey.L: { attempt = 'l'; break; }
+                    case ConsoleKey.M: { attempt = 'm'; break; }
+                    case ConsoleKey.N: { attempt = 'n'; break; }
+                    case ConsoleKey.O: { attempt = 'o'; break; }
+                    case ConsoleKey.P: { attempt = 'p'; break; }
+                    case ConsoleKey.Q: { attempt = 'q'; break; }
+                    case ConsoleKey.R: { attempt = 'r'; break; }
+                    case ConsoleKey.S: { attempt = 's'; break; }
+                    case ConsoleKey.T: { attempt = 't'; break; }
+                    case ConsoleKey.U: { attempt = 'u'; break; }
+                    case ConsoleKey.V: { attempt = 'v'; break; }
+                    case ConsoleKey.W: { attempt = 'w'; break; }
+                    case ConsoleKey.X: { attempt = 'x'; break; }
+                    case ConsoleKey.Y: { attempt = 'y'; break; }
+                    case ConsoleKey.Z: { attempt = 'z'; break; }
+                }
+
+                if (puzzle.Contains(attempt))
+                {
+                    puzzle.Show(attempt);
+                }
+                else if (!puzzle.Contains(attempt) && !incorrectLetters.Contains(attempt))
+                {
+                    incorrectLetters.Add(attempt);
+                    mistakes++;
+                }
+
+                if (puzzle.Finished())
+                {
+                    win = true;
+                    break;
+                }
+                else if (mistakes > 7)
+                {
+                    win = false;
+                    break;
+                }
             }
 
-            if (puzzle.Finished())
+            // Ending screen
+            if (win)
             {
-                win = true;
+                Clear();
+                ForegroundColor = ConsoleColor.Green;
+                WriteLine(" == WELL DONE! ==");
+                WriteLine("\n You got the word:");
+                WriteLine("  - {0} -", word);
+                if (mistakes == 0)
+                {
+                    WriteLine(" with no mistakes!");
+                }
+                else
+                {
+                    WriteLine(" with {0} mistakes!", mistakes);
+                }
+
+                ForegroundColor = ConsoleColor.White;
+                WriteLine("\n Play again? (y/n)");
+            }
+            else
+            {
+                Clear();
+                ForegroundColor = ConsoleColor.Red;
+                WriteLine(" == BAD LUCK! ==");
+                WriteLine("\n The word was:");
+                WriteLine("  - {0} -", word);
+
+                ForegroundColor = ConsoleColor.White;
+                WriteLine("\n Try again? (y/n)");
+            }  
+
+            CursorVisible = true;
+            Write(" >> ");
+            if (ReadLine() != "y")
+            {
                 break;
             }
         }
 
-        if (win)
-        {
-            Clear();
-            WriteLine(" == WELL DONE! ==");
-            WriteLine("\n You got the word:");
-            WriteLine("  {0}", word);
-            if (mistakes == 0)
-            {
-                WriteLine(" with no mistakes!");
-            }
-            else
-            {
-                WriteLine(" with {0} mistakes!", mistakes);
-            }
-            WriteLine("\n Play again? (y/n)");
-        }
+        Clear();
+        WriteLine("Thanks for playing!");
     }
 }
