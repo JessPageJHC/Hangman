@@ -1,24 +1,24 @@
-INTEGER
-VARIABLE
-CONSTANT
-IF STATEMENT
-STRING MANIPULATION
-STACK OVERFLOW
-VALIDATION
-ASSIGNMENT
-DOUBLE
-NESTED LOOP
-EXCEPTION
-SEMICOLON
-VISUAL STUDIO
-PYTHON
-BOOLEAN
-FOR LOOP
-C SHARP
-JAVASCRIPT
-SYNTAX ERROR
-OBJECT ORIENTED
-PARAMETERS
-VERSION CONTROL
-SWITCH STATEMENT
+Integer
+Variable
+Constant
+If statement
+String manipulation
+Stack overflow
+Validation
+Assignment
+Double
+Nested loop
+Exception
+Semicolon
+Visual Studio
+Python
+Boolean
+For loop
+C Sharp
+JavaScript
+Syntax error
+Object oriented
+Parameters
+Version control
+Switch statement
 GUI

@@ -1,9 +1,9 @@
-HARRY POTTER
-TO KILL A MOCKINGBIRD
-ANIMAL FARM
-HITCHHIKER'S GUIDE TO THE GALAXY
-LORD OF THE RINGS
-DIARY OF A WIMPY KID
-GERONIMO STILTON
-PERCY JACKSON
-NARNIA
+Harry Potter
+To Kill a Mockingbird
+Animal Farm
+Hitchhiker's Guide to the Galaxy
+Lord of the Rings
+Diary of a Wimpy Kid
+Geronimo Stilton
+Percy Jackson
+Narnia

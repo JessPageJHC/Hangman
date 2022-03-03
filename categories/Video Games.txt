@@ -1,35 +1,35 @@
-SPACE INVADERS
-PAC-MAN
-TETRIS
-SUPER MARIO BROS.
-SONIC THE HEDGEHOG
-PORTAL
-MINECRAFT
-WII SPORTS
-FIVE NIGHTS AT FREDDY'S
-AMONG US
-GRAND THEFT AUTO
-ANIMAL CROSSING
-THE LEGEND OF ZELDA
-CALL OF DUTY
-RUNESCAPE
-CLASH OF CLANS
-TEAM FORTRESS 2
-POKEMON GO
-STREET FIGHTER
-FINAL FANTASY
-CANDY CRUSH
-MINESWEEPER
-THE SIMS
-ASSASSIN'S CREED
-RESIDENT EVIL
-MORTAL KOMBAT
-DONKEY KONG
-CRASH BANDICOOT
-MEGA MAN
-COUNTER-STRIKE
-SILENT HILL
-MASS EFFECT
-GARRY'S MOD
-UNDERTALE
-ANGRY BIRDS
+Space Invaders
+Pac-Man
+Tetris
+Super Mario Bros.
+Sonic the Hedgehog
+Portal
+Minecraft
+Wii Sports
+Five Nights at Freddy's
+Among Us
+Grand Theft Auto
+Animal Crossing
+The Legend of Zelda
+Call of Duty
+RuneScape
+Clash of Clans
+Team Fortress 2
+Pokemon Go
+Street Fighter
+Final Fantasy
+Candy Crush
+Minesweeper
+The Sims
+Assassin's Creed
+Resident Evil
+Mortal Kombat
+Donkey Kong
+Crash Bandicoot
+Mega Man
+Counter-Strike
+Silent Hill
+Mass Effect
+Garry's Mod
+Undertale
+Angry Birds

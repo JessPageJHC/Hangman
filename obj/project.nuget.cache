@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JItdUCcc/7G+gPMirW7MxEUTc8WCvV++SjainxDCFMToTEeUFUw9N5g6WkcZRwa+MBz0pbruNZQLZw6LtAm8Mw==",
+  "dgSpecHash": "JYfS3B+2nbD8xrrZip9CRkRrU9vqaSMJqNw1AFFeexBtSpXy5dy5mkGwktc0XBwcmgXa9otouKHcwBw4x17//g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\HangmanConsole\\Hangman.csproj",
+  "projectFilePath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\Hangman\\Hangman.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

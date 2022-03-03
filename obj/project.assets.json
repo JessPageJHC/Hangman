@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fiend\\Documents\\Projects\\C#\\HangmanConsole\\Hangman.csproj",
+      "projectUniqueName": "C:\\Users\\fiend\\Documents\\Projects\\C#\\Hangman\\Hangman.csproj",
       "projectName": "Hangman",
-      "projectPath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\HangmanConsole\\Hangman.csproj",
+      "projectPath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\Hangman\\Hangman.csproj",
       "packagesPath": "C:\\Users\\fiend\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\HangmanConsole\\obj\\",
+      "outputPath": "C:\\Users\\fiend\\Documents\\Projects\\C#\\Hangman\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fiend\\AppData\\Roaming\\NuGet\\NuGet.Config"

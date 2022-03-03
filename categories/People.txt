@@ -1,21 +1,21 @@
-ALBERT EINSTEIN
-GEORGE WASHINGTON
-MARK ZUCKERBERG
-BILL GATES
-ABRAHAM LINCOLN
-JULIUS CAESAR
-MARILYN MONROE
-LEONARDO DA VINCI
-THOMAS EDISON
-NELSON MANDELA
-THOMAS JEFFERSON
-MARIE CURIE
-BENJAMIN FRANKLIN
-TAIKA WAITITI
-MARTIN LUTHER KING JR.
-WILLIAM SHAKESPEARE
-NIKOLA TESLA
-STEVE JOBS
-SARAH GREEFF
-MICHAEL JORDAN
-KEANU REEVES
+Albert Einstein
+George Washington
+Mark Zuckerberg
+Bill Gates
+Abraham Lincoln
+Julius Caesar
+Marilyn Monroe
+Leonardo da Vinci
+Thomas Edison
+Nelson Mandela
+Thomas Jefferson
+Marie Curie
+Benjamin Franklin
+Taika Waititi
+Martin Luther King Jr.
+William Shakespeare
+Nikola Tesla
+Steve Jobs
+Michael Jordan
+Keanu Reeves
+Sarah Greeff

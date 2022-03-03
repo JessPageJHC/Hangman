@@ -1,25 +1,25 @@
-KEYBOARD
-TABLE LAMP
-BASKETBALL
-MICROPHONE
-TOASTER
-MICROWAVE
-PLAYING CARDS
-TOILET PAPER
-PENCIL SHARPENER
-MATCHBOX
-UMBRELLA
-HAND MIRROR
-BOX OF CRAYONS
-T-SHIRT
-RUBBER DUCK
-SHOVEL
-MAGNIFYING GLASS
-COFFEE MACHINE
-PAINT BRUSH
-TOOTHBRUSH
-BUTTER KNIFE
-RUBBER BAND
-CREDIT CARD
-HEADPHONES
-BOTTLED WATER
+Keyboard
+Table lamp
+Basketball
+Microphone
+Toaster
+Microwave
+Playing cards
+Toilet paper
+Pencil sharpener
+Matchbox
+Umbrella
+Hand mirror
+Box of Crayons
+T-shirt
+Rubber duck
+Shovel
+Magnifying glass
+Coffee machine
+Paint brush
+Toothbrush
+Butter knife
+Rubber band
+Credit card
+Headphones
+Bottled water

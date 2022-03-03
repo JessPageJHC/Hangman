@@ -1,29 +1,29 @@
-ELVIS PRESLEY
-JOHN LENNON
-ARIANA GRANDE
-THE WEEKND
-THE BEATLES
-MICHAEL JACKSON
-HARRY STYLES
-RIHANNA
-TAYLOR SWIFT
-KANYE WEST
-JUSTIN BIEBER
-ED SHEERAN
-LED ZEPPELIN
-KATY PERRY
-BRUNO MARS
-NICKI MINAJ
-BRITNEY SPEARS
-JOHNNY CASH
-IMAGINE DRAGONS
-NIRVANA
-THE CHAINSMOKERS
-BILLIE EILISH
-RICK ASTLEY
-OLIVIA RODRIGO
-POST MALONE
-GLASS ANIMALS
-LANA DEL REY
-SMASH MOUTH
-THE ROLLING STONES
+Elvis Presley
+John Lennon
+Ariana Grande
+The Weeknd
+The Beatles
+Michael Jackson
+Harry Styles
+Rihanna
+Taylor Swift
+Kanye West
+Justin Bieber
+Ed Sheeran
+Led Zeppelin
+Katy Perry
+Bruno Mars
+Nicki Minaj
+Britney Spears
+Johnny Cash
+Imagine Dragons
+Nirvana
+The Chainsmokers
+Billie Eilish
+Rick Astley
+Olivia Rodrigo
+Post Malone
+Glass Animals
+Lana Del Rey
+Smash Mouth
+The Rolling Stones

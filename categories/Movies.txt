@@ -1,37 +1,37 @@
-HARRY POTTER
-AVENGERS: ENDGAME
-TITANIC
-JURASSIC PARK
-THE LION KING
-BLACK PANTHER
-THE DARK KNIGHT RISES
-THE MATRIX
-STAR WARS
-PIRATES OF THE CARIBBEAN
-FINDING NEMO
-TOY STORY
-JAMES BOND
-THE FAST AND THE FURIOUS
-DESPICABLE ME
-MISSION IMPOSSIBLE
-SHREK
-THE HUNGER GAMES
-FROZEN
-THE SHAWSHANK REDEMPTION
-THE WIZARD OF OZ
-THE GODFATHER
-THE SOUND OF MUSIC
-INDIANA JONES
-BACK TO THE FUTURE
-GUARDIANS OF THE GALAXY
-INSIDE OUT
-FORREST GUMP
-SUICIDE SQUAD
-TRANSFORMERS
-MARY POPPINS
-THE JUNGLE BOOK
-SPIDER-MAN
-HOME ALONE
-SPACE JAM
-SPIRITED AWAY
-TERMINATOR
+Harry Potter
+Avengers: Endgame
+Titanic
+Jurassic Park
+The Lion King
+Black Panther
+The Dark Knight Rises
+The Matrix
+Star Wars
+Pirates of the Caribbean
+Finding Nemo
+Toy Story
+James Bond
+The Fast and the Furious
+Despicable Me
+Mission Impossible
+Shrek
+The Hunger Games
+Frozen
+The Shawshank Redemption
+The Wizard of Oz
+The Godfather
+The Sound of Music
+Indiana Jones
+Back to the Future
+Guardians of the Galaxy
+Inside Out
+Forrest Gump
+Suicide Squad
+Transformers
+Mary Poppins
+The Jungle Book
+Spider-Man
+Home Alone
+Space Jam
+Spirited Away
+Terminator

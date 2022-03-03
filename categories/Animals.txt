@@ -1,27 +1,27 @@
-HEDGEHOG
-GRIZZLY BEAR
-KITTEN
-SNOWY OWL
-GREYHOUND
-ARMAADILLO
-GIRAFFE
-BADGER
-HIPPOPOTAMUS
-MOUNTAIN GOAT
-PLATYPUS
-MARMOSET
-HAMSTER
-PARAKEET
-WOODCHUCK
-TASMANIAN DEVIL
-GROUNDHOG
-ANTEATER
-REINDEER
-ELEPHANT
-DUNG BEETLE
-PORCUPINE
-LYNX
-RATTLESNAKE
-CHIMPANZEE
-SPRINGBOK
-RHINOCEROS
+Hedgehog
+Grizzly bear
+Kitten
+Snowy owl
+Greyhound
+Armadillo
+Giraffe
+Badger
+Hippopotamus
+Mountain goat
+Platypus
+Marmoset
+Hamster
+Parakeet
+Woodchuck
+Tasmanian devil
+Groundhog
+Anteater
+Reindeer
+Elephant
+Dung beetle
+Porcupine
+Lynx
+Rattlesnake
+Chimpanzee
+Springbok
+Rhinoceros
