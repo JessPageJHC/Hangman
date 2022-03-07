@@ -9,7 +9,6 @@ Assignment
 Double
 Nested loop
 Exception
-Semicolon
 Visual Studio
 Python
 Boolean
@@ -21,4 +20,9 @@ Object oriented
 Parameters
 Version control
 Switch statement
-GUI
+Constant
+Casting
+Inheritance
+Polymorphism
+Array
+Function
